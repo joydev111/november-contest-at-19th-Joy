@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filter Cards</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body> 
+    <div class="main">
+    <div class="container">
+      <h3 class="para">Filter ui cards via their profession.</h3>
+      <select id="list" onchange="getSelectedValue()" title="selection" class="selectbar"> 
+        <option value="profession" >Profession</option>
+        <option value="developer">Developer</option>
+        <option value="admin">Admin</option>
+      </select>
+      <div id="item"></div>
+      
+    </div><br>
+    <div><button id="btn" onclick="Employee()" class="filter">Filter</button></div>
+  </div>
+    <script src="code.js"></script>
+  </body>
+</html>
